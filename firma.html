@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- 
+	Nota: Se vera disarejo en el navegador por que en gmail,
+	no reconoce los estilos (CSS), pero al momento de hacer
+	el copy-paste se ajustará a la firma tanto en la PC como
+	en la Móvil
+ -->
 
 <head>
 	<meta charset="UTF-8">
@@ -17,7 +23,9 @@
 		crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
+
 <body>
+	<br><br>
 	<div class="container">
 		<div class="row" style="height: 279px;">
 			<div class="" style="width: 220px; height: 300px; padding-right: 7px;">
@@ -52,7 +60,7 @@
 						position: relative;
 						text-align: center;
 						width: 210px;
-						height: 76px;
+						height: 85px;
 
 						font-size: 14px;
 					}
@@ -107,17 +115,19 @@
 
 				<!-- columna para el nombre del personal-->
 				<div class="" id="contenedor-nombre">
-					<h6 class="fw-bold"><span style="color: #1b355a;">
-							<!-- aqui colocarás tu nombre -->JAVIER</span><br />
-						<span style="font-weight: 100;color: #616160;"><!-- aqui colocarás tus apellidos -->P&EacuteREZ
-							SANTIZ</span>
+					<h6 class="fw-bold text-uppercase"><span style="color: #1b355a;">
+							<!-- aqui colocarás tu nombre -no es necesario escribir en mayuscula, por que se comvierte en automatico -->
+							nombre</span><br />
+						<span
+							style="font-weight: 100;color: #616160;"><!-- aqui colocarás tus apellidos -no es necesario escribir en mayuscula, por que se comvierte en automatico  -->
+							apellidos</span>
 					</h6>
 
 					<div style="height: 0px; border-width: 2px; border-top-style: solid; border-color: #0a3488;"></div>
 
-					<p class="fw-bold" color="#1b355a" font-size="medium" style="color: #1b355a; line-height: 22px;">
-						<span><!-- aqui colocarás tu area de trabajo -->TEAM LEADER
-							EDUCACI&OacuteN</span>
+					<p class="fw-bold text-uppercase" color="#1b355a" font-size="medium"
+						style="color: #1b355a; line-height: 22px;">
+						<span><!-- aqui colocarás tu area de trabajo -->área de trabajo</span>
 					</p>
 				</div>
 
@@ -125,7 +135,8 @@
 				<div class="" id="contenedor-datos">
 					<div class="row">
 						<div>
-							<P style="margin-top:0px;margin-bottom:7px"><span class="fw-bold">Cel:</span><!-- aqui colocarás tu número -->+52
+							<P style="margin-top:0px;margin-bottom:7px"><span
+									class="fw-bold">Cel:</span><!-- aqui colocarás tu número -->+52
 								(33) 2065 7070<br><span
 									class="fw-bold">Oficina:</span><!-- aqui colocarás tu número -->+52 (33) 30 02
 								6144<br>
@@ -172,15 +183,23 @@
 
 			</div>
 			<!-- columna de gif de google -->
+			<!-- NOTA: checar que las imagenes
+				no tengan bordes blancos,
+				más que solo el contenido 
+			-->
 			<div class="col-5"
 				style="height: 260px; border-width: 3px; border-left-style: solid; border-color: #0a3488;">
 				<div class="col-12" id="centrador-gif">
+					<!-- gif imagen grande solo cambia la url -->
 					<img id="gif" src="https://tecnologiaintegrada.mx/firmacorreos/Imagenes/landing_education.gif">
 				</div>
 
+
 				<div class="row p-2" style="width: 300px; height: 100px;">
+					<!-- solo cambia la url de la imagen -->
 					<img class="" id="min-images-1"
 						src="https://tecnologiaintegrada.mx/firmacorreos/Imagenes/Lenovo-PartnerEducation.jpeg">
+					<!-- solo cambia la url de la imagen -->
 					<img class="px-1" id="min-images-2"
 						src="https://tecnologiaintegrada.mx/firmacorreos/Imagenes/GCE_Badges2.png">
 				</div>
