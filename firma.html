@@ -233,27 +233,15 @@
 		<button onclick="processData()">alert</button>
 	</form></center>
 
-	<script>
-		// Variable to hold request
+	<script type="text/javascript">
+
 		var nombre = "";
 		var apellidos = "";
 		var imagen1 = "";
 		var imagen2 = "";
 		var imagen3 = "";
 		
-		$("#datosForm").submit(function (event) {
-			event.preventDefault();
-			nombre.push($(this).find('input[name="nombre"]').val());
-			apellidos.push($(this).find('input[name="apellidos"]').val());
-			imagen1.push($(this).find('input[name="imagen1"]').val());
-			imagen2.push($(this).find('input[name="imagen2"]').val());
-			imagen3.push($(this).find('input[name="imagen3"]').val());
-			alert("Dato Añadida");
-		});
 
-		function processData() {
-			alert();
-		}
 	</script>
 </body>
 
